@@ -12,7 +12,7 @@ const Ex1 = () => {
         const ele = jquery(taget.current)
         console.log(ele)
 
-        ele.hide(5000)
+        ele.hide('slow')
     }
     const clickShow = () =>{
         const ele = jquery(taget.current)
