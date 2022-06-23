@@ -5,6 +5,7 @@ import MapEx from "./components/mapEx";
 import Kiosk from "./components/kiosk";
 import Count from "./components/count";
 import Posts from "./components/posts";
+import Todo from "./components/todo";
 
 function App() {
     return (
@@ -14,8 +15,12 @@ function App() {
             {/*<MapEx></MapEx>*/}
             {/*<MapEx></MapEx>*/}
             {/*<Kiosk></Kiosk>*/}
-            <Count/>
-            <Posts></Posts>
+            {/*<Count/>*/}
+            {/*<Posts></Posts>*/}
+            <Todo></Todo>
+            <Todo></Todo>
+            <Todo></Todo>
+
         </div>
     );
 }
