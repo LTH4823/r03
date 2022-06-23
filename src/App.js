@@ -9,6 +9,8 @@ function App() {
         <div className="App">
             {/*<Ex1></Ex1>*/}
             <MapEx></MapEx>
+            <MapEx></MapEx>
+            <MapEx></MapEx>
             {/*<Kiosk></Kiosk>*/}
         </div>
     );
