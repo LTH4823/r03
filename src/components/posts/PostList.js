@@ -3,10 +3,10 @@ import {PostContext} from "./index";
 
 const PostList = () => {
 
-    const {postArr} = useContext(PostContext)
+    const {postArr, removePost} = useContext(PostContext)
 
     const list = postArr.map(post =>
-        <li key={post.id}>{post.title}--{post.author}</li>)
+        <li key={post.id}>{post.title}--{post.author}<button onClick={() =>removePost(post.id)}>DEL</button></li>)
 
     return (
         <div>
